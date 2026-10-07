@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Eclipse Ankaios project provides requirement tracing using the [OpenFastTrace](https://github.com/itsallcode/openfasttrace) requirement tracing suite. The dev container already includes the required tooling. To generate a requirement tracing report call:
+The Eclipse Ankaios project provides requirement tracing using the [OpenFastTrace](https://openfasttrace.itsallcode.com) requirement tracing suite. The dev container already includes the required tooling. To generate a requirement tracing report call:
 
 ```shell
 just trace-requirements
@@ -10,7 +10,7 @@ just trace-requirements
 
 Afterwards the HTML report is available under `build/req/req_tracing_report.html` and shows the current coverage state.
 
-For details on the OpenFastTrace tool, please consult [OFT's user documentation](https://github.com/itsallcode/openfasttrace/blob/main/doc/user_guide.md) or execute `oft help`.
+For details on the OpenFastTrace tool, please consult [OFT's user documentation](https://openfasttrace.itsallcode.org/user_guide/user_guide.html) or execute `oft help`.
 
 ## Adding requirements
 
